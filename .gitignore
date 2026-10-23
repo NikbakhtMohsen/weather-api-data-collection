@@ -1,0 +1,25 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*secrets*.json
+*credentials*.json
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# Generated results
+weather_data_outputs/
+results/
+*.db
+*.sqlite
+*.sqlite3
+*.xls
+*.xlsx
+*.zip
+
+# Operating system
+.DS_Store
